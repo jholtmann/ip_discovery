@@ -1,4 +1,4 @@
-Python IP Discovery
+Python UDP broadcast IP discovery
 
 These python scripts can be used to find a server on your local LAN when you don't know its IP address.
 
