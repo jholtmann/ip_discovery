@@ -23,6 +23,6 @@ sudo crontab -e
 ```
 and add:
 ```
-@reboot python3 /[PATH TO SCRIPT DIRECTORY]/ip_disc_server.py & echo $! > ~/[PATH TO SCRIPT DIRECTORY]/ip_disc_server.pid
+@reboot python3 /[PATH TO SCRIPT DIRECTORY]/ip_disc_server.py & echo $! > /[PATH TO SCRIPT DIRECTORY]/ip_disc_server.pid
 ```
 to the bottom of the file.
