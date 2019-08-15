@@ -4,12 +4,12 @@ These python scripts can be used to find a server on your local LAN when you don
 
 On the server:
 ```
-python python3 ip_disc_server.py & echo $! > ip_disc_server.pid
+python3 ip_disc_server.py & echo $! > ip_disc_server.pid
 ```
 
 On the client machine:
 ```
-python ip_disc_client.py
+python3 ip_disc_client.py
 ```
 
 The server will now listen for UDP broadcasts on port 9434. The client sends UDP packets to 255.255.255.255, which are broadcast across the network. The server then responds to the client, allowing the client to deduce the server's IP address.
